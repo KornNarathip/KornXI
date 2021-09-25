@@ -1,0 +1,56 @@
+
+
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.section-all {
+    background-color: rgba(0, 0, 0, 0.596);
+} 
+
+.section-title {
+    margin-top: 0px;
+}
+
+.section-title p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    position: relative;
+}
+
+.about {
+    background-image: url('../images/im2.jpg');
+    background-size: cover;
+    color: rgb(167, 167, 167);
+    line-height: 20px;
+    
+
+}
+.text-muted {
+    top: 15px;
+    bottom: 0px;
+    margin-bottom: 10px;
+    border-bottom-width: 10px;
+    height: 60px;
+}
+
+.p1 {
+    margin-bottom: 40px;
+}
+
+.navbar-brand {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
