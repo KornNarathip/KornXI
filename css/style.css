@@ -23,7 +23,7 @@
 }
 
 .about {
-    background-image: url('../images/im2.jpg');
+    background-image: url('../images/im11.jpg');
     background-size: cover;
     color: rgb(167, 167, 167);
     line-height: 20px;
@@ -57,6 +57,14 @@
     color: rgb(161, 161, 161);
 }
 
+.topic h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: rgb(161, 161, 161);
+}
+
 .nav-item {
     font-size: 1rem;
     text-transform: uppercase;
@@ -70,14 +78,23 @@
 }
 
 .img-responsive {
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    left: 0;
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    margin-top:50px;
+}
+
+.img-responsive{
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border:0px;
+    border-radius:0px;
 }
 
 .img-responsive:hover {
-  filter: none; /* IE6-9 */
-  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
-
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .Gallery .btn{
@@ -88,12 +105,79 @@
     width: 300px;
     border: none;
     outline: none;
-    background: rgba(138, 138, 138, 0.856);
+    background: rgba(194, 0, 0, 0.856);
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
+    font-weight: 600;
+    text-transform: uppercase;
   }
   .Gallery .btn button:hover{
     background: rgb(255, 255, 255);
   }
+
+
+  .more a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  /**/
+  
+  
+  .about-text {
+	float: left;
+	width: 65%;
+	margin-top:3%; 
+}
+.about-text p {
+	font-size: 15px;
+	color: #7e7e7e;
+	line-height: 1.5em;
+}
+.about-sectiongrids{
+	padding: 40px 0px;
+}
+.polls {
+	padding: 10px 0;
+    
+}
+.poll-desc {
+	float: left;
+}
+.poll-desc h4{
+	font-size: 17px;
+	color: #2a404e;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+.percentage {
+	float: right;
+	margin-right: 26%
+}
+.percentage p{
+	font-size:17px;
+	color:#2a404e;
+	font-weight: bold;
+}
+.skills {
+	width: 100%;
+	margin: 5px 0;
+	height: 14px;
+	background:#dedede;
+}
+.skills > div {
+	height: 100%;
+	display: block;
+	background-color: #000000;
+}
+
+.skills-conteiner {
+    background-image: url('../images/im11.jpg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -105,3 +105,18 @@
   background-image: url('../images/im4.jpg');
   background-size: cover;
 }
+
+.carousel-image-4{
+  background-image: url('../images/im6.JPG');
+  background-size: cover;
+}
+
+.carousel-image-5{
+  background-image: url('../images/im7.jpg');
+  background-size: cover;
+}
+
+.carousel-image-6{
+  background-image: url('../images/im8.jpg');
+  background-size: cover;
+}
