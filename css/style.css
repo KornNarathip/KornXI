@@ -105,23 +105,20 @@
     width: 300px;
     border: none;
     outline: none;
-    background: rgba(194, 0, 0, 0.856);
+    background: rgb(87, 87, 87);
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
     font-weight: 600;
     text-transform: uppercase;
-  }
-  .Gallery .btn button:hover{
-    background: rgb(255, 255, 255);
-  }
-
-
-  .more a{
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
+  .Gallery .btn button:hover{
+    background: rgb(231, 0, 0);
+  }
+
 
   /**/
   
