@@ -5,7 +5,7 @@
 }
 
 .section-all {
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: rgba(0, 0, 0, 0.719);
 } 
 
 .section-title {
@@ -27,15 +27,8 @@
     background-size: cover;
     color: rgb(167, 167, 167);
     line-height: 20px;
-    
-
-}
-.text-muted {
-    top: 15px;
-    bottom: 0px;
-    margin-bottom: 10px;
-    border-bottom-width: 10px;
-    height: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .p1 {
@@ -48,9 +41,59 @@
     text-transform: uppercase;
 }
 
+.about h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: rgb(161, 161, 161);
+}
+
+.Gallery h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: rgb(161, 161, 161);
+}
+
 .nav-item {
     font-size: 1rem;
     text-transform: uppercase;
 }
 
 
+.Gallery {
+    background-color: #111;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.img-responsive {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.img-responsive:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+}
+
+.Gallery .btn{
+    margin-top: 70px;
+  }
+  .Gallery .btn button{
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background: rgba(138, 138, 138, 0.856);
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .Gallery .btn button:hover{
+    background: rgb(255, 255, 255);
+  }
